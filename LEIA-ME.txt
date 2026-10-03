@@ -1,0 +1,36 @@
+AVIALOG — INTELIGÊNCIA DE TRANSPORTE
+Primeira versão operacional
+
+COMO ABRIR NO WINDOWS
+1. Extraia este arquivo ZIP.
+2. Entre em AVIALOG_PORTATIL.
+3. Execute INICIAR.bat.
+4. Mantenha a janela preta aberta enquanto usar o sistema.
+5. O navegador abrirá sozinho em http://127.0.0.1:8765.
+
+Se o Windows informar que Python não está instalado, instale Python 3.9 ou superior pelo site oficial python.org e marque “Add Python to PATH”. Depois execute INICIAR.bat novamente.
+
+O sistema grava os dados localmente em AVIALOG_PORTATIL/dados/avialog.sqlite3. Não apague essa pasta se quiser manter suas alterações.
+
+O QUE JÁ ESTÁ DISPONÍVEL
+• Centro de controle com ocupação da frota por hora e linha do tempo.
+• Laboratório de cenários para testar manutenção, atrasos, densidade e retorno.
+• Programação de cargas com rastreabilidade por caminhão.
+• Cadastro de granjas, galpões, cidades, quantidade de aves e tempos separados para cada frigorífico.
+• Importação CSV com modelo, prévia, validação e atualização sem duplicar granja + galpão.
+• Gestão dos 22 caminhões e marcação de veículos em manutenção.
+• Registro separado da mortalidade no transporte.
+• Cenários salvos, exportação CSV e backup completo em JSON.
+• Tratamento de sobras de carga, janelas de descarga, retorno e dias sem abate.
+
+DADOS DA PRIMEIRA TELA
+As rotas exibidas inicialmente são de demonstração e estão identificadas como “Demonstração”. Substitua-as em “Importar rotas” ou cadastre os dados reais. Nenhum percentual de mortalidade foi inventado para preencher a tela.
+
+MODELO CSV
+Use o botão “Baixar modelo de importação”. As colunas obrigatórias são:
+granja;galpao;cidade;aves;vazio_min;ave_nova_min;real_min;destino;bloqueado_ate
+
+LIMITES DA VERSÃO 1
+A agenda é uma heurística de planejamento. Ela ajuda a comparar cenários, mas não substitui a validação operacional. Equipes de apanha, escala de motoristas, recebimento antecipado e distribuição real de peso ainda serão adicionados como módulos próprios.
+
+Para continuar o desenvolvimento, use a pasta AVIALOG_PROJETO.

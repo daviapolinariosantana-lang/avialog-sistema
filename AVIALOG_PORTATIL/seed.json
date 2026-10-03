@@ -1,0 +1,323 @@
+{
+  "schema": 1,
+  "config": {
+    "date": "2026-10-05",
+    "days": 1,
+    "fleet": 22,
+    "unavailable": 2,
+    "boxes": 627,
+    "density": 6,
+    "loadMin": 90,
+    "residenceMin": 90,
+    "unloadMin": 25,
+    "returnMin": 75,
+    "delayMin": 0,
+    "aveTarget": 130000,
+    "realTarget": 90000,
+    "aveOpen": 360,
+    "aveClose": 1380,
+    "realOpen": 360,
+    "realClose": 990,
+    "saturdayTarget": 60000,
+    "saturdayClose": 780,
+    "nightOnly": false,
+    "nightStart": 1140,
+    "nightEnd": 360,
+    "creationLoss": 10,
+    "stockMode": "available"
+  },
+  "routes": [
+    {
+      "id": "demo-1",
+      "farm": "Granja demonstração 01",
+      "shed": "D01",
+      "city": "Pará de Minas",
+      "birds": 26000,
+      "emptyMin": 65,
+      "aveMin": 120,
+      "realMin": 135,
+      "destination": "both",
+      "blockedUntil": "",
+      "source": "demo"
+    },
+    {
+      "id": "demo-2",
+      "farm": "Granja demonstração 02",
+      "shed": "D02",
+      "city": "Igaratinga",
+      "birds": 31000,
+      "emptyMin": 80,
+      "aveMin": 150,
+      "realMin": 135,
+      "destination": "both",
+      "blockedUntil": "",
+      "source": "demo"
+    },
+    {
+      "id": "demo-3",
+      "farm": "Granja demonstração 03",
+      "shed": "D03",
+      "city": "Conceição do Pará",
+      "birds": 36000,
+      "emptyMin": 90,
+      "aveMin": 160,
+      "realMin": 175,
+      "destination": "both",
+      "blockedUntil": "",
+      "source": "demo"
+    },
+    {
+      "id": "demo-4",
+      "farm": "Granja demonstração 04",
+      "shed": "D04",
+      "city": "São Gonçalo do Pará",
+      "birds": 41000,
+      "emptyMin": 70,
+      "aveMin": 140,
+      "realMin": 150,
+      "destination": "both",
+      "blockedUntil": "",
+      "source": "demo"
+    },
+    {
+      "id": "demo-5",
+      "farm": "Granja demonstração 05",
+      "shed": "D05",
+      "city": "São Sebastião do Oeste",
+      "birds": 26000,
+      "emptyMin": 100,
+      "aveMin": 190,
+      "realMin": 170,
+      "destination": "both",
+      "blockedUntil": "",
+      "source": "demo"
+    },
+    {
+      "id": "demo-6",
+      "farm": "Granja demonstração 06",
+      "shed": "D06",
+      "city": "Itaúna",
+      "birds": 31000,
+      "emptyMin": 50,
+      "aveMin": 140,
+      "realMin": 155,
+      "destination": "both",
+      "blockedUntil": "",
+      "source": "demo"
+    },
+    {
+      "id": "demo-7",
+      "farm": "Granja demonstração 07",
+      "shed": "D07",
+      "city": "Formiga",
+      "birds": 36000,
+      "emptyMin": 130,
+      "aveMin": 250,
+      "realMin": 230,
+      "destination": "both",
+      "blockedUntil": "",
+      "source": "demo"
+    },
+    {
+      "id": "demo-8",
+      "farm": "Granja demonstração 08",
+      "shed": "D08",
+      "city": "Itapecerica",
+      "birds": 41000,
+      "emptyMin": 140,
+      "aveMin": 270,
+      "realMin": 250,
+      "destination": "both",
+      "blockedUntil": "",
+      "source": "demo"
+    },
+    {
+      "id": "demo-9",
+      "farm": "Granja demonstração 09",
+      "shed": "D09",
+      "city": "Cordisburgo",
+      "birds": 26000,
+      "emptyMin": 240,
+      "aveMin": 360,
+      "realMin": 340,
+      "destination": "both",
+      "blockedUntil": "",
+      "source": "demo"
+    },
+    {
+      "id": "demo-10",
+      "farm": "Granja demonstração 10",
+      "shed": "D10",
+      "city": "Pedra do Indaiá",
+      "birds": 31000,
+      "emptyMin": 135,
+      "aveMin": 230,
+      "realMin": 240,
+      "destination": "both",
+      "blockedUntil": "",
+      "source": "demo"
+    },
+    {
+      "id": "demo-11",
+      "farm": "Granja demonstração 11",
+      "shed": "D11",
+      "city": "Onça de Pitangui",
+      "birds": 36000,
+      "emptyMin": 85,
+      "aveMin": 170,
+      "realMin": 150,
+      "destination": "both",
+      "blockedUntil": "",
+      "source": "demo"
+    },
+    {
+      "id": "demo-12",
+      "farm": "Granja demonstração 12",
+      "shed": "D12",
+      "city": "Nova Serrana",
+      "birds": 41000,
+      "emptyMin": 100,
+      "aveMin": 190,
+      "realMin": 170,
+      "destination": "both",
+      "blockedUntil": "",
+      "source": "demo"
+    }
+  ],
+  "trucks": [
+    {
+      "id": "TB-01",
+      "name": "TB-01",
+      "status": "available",
+      "note": ""
+    },
+    {
+      "id": "TB-02",
+      "name": "TB-02",
+      "status": "available",
+      "note": ""
+    },
+    {
+      "id": "TB-03",
+      "name": "TB-03",
+      "status": "available",
+      "note": ""
+    },
+    {
+      "id": "TB-04",
+      "name": "TB-04",
+      "status": "available",
+      "note": ""
+    },
+    {
+      "id": "TB-05",
+      "name": "TB-05",
+      "status": "available",
+      "note": ""
+    },
+    {
+      "id": "TB-06",
+      "name": "TB-06",
+      "status": "available",
+      "note": ""
+    },
+    {
+      "id": "TB-07",
+      "name": "TB-07",
+      "status": "available",
+      "note": ""
+    },
+    {
+      "id": "TB-08",
+      "name": "TB-08",
+      "status": "available",
+      "note": ""
+    },
+    {
+      "id": "TB-09",
+      "name": "TB-09",
+      "status": "available",
+      "note": ""
+    },
+    {
+      "id": "TB-10",
+      "name": "TB-10",
+      "status": "available",
+      "note": ""
+    },
+    {
+      "id": "TB-11",
+      "name": "TB-11",
+      "status": "available",
+      "note": ""
+    },
+    {
+      "id": "TB-12",
+      "name": "TB-12",
+      "status": "available",
+      "note": ""
+    },
+    {
+      "id": "TB-13",
+      "name": "TB-13",
+      "status": "available",
+      "note": ""
+    },
+    {
+      "id": "TB-14",
+      "name": "TB-14",
+      "status": "available",
+      "note": ""
+    },
+    {
+      "id": "TB-15",
+      "name": "TB-15",
+      "status": "available",
+      "note": ""
+    },
+    {
+      "id": "TB-16",
+      "name": "TB-16",
+      "status": "available",
+      "note": ""
+    },
+    {
+      "id": "TB-17",
+      "name": "TB-17",
+      "status": "available",
+      "note": ""
+    },
+    {
+      "id": "TB-18",
+      "name": "TB-18",
+      "status": "available",
+      "note": ""
+    },
+    {
+      "id": "TB-19",
+      "name": "TB-19",
+      "status": "available",
+      "note": ""
+    },
+    {
+      "id": "TB-20",
+      "name": "TB-20",
+      "status": "available",
+      "note": ""
+    },
+    {
+      "id": "TB-21",
+      "name": "TB-21",
+      "status": "available",
+      "note": ""
+    },
+    {
+      "id": "TB-22",
+      "name": "TB-22",
+      "status": "available",
+      "note": ""
+    }
+  ],
+  "records": [],
+  "scenarios": []
+}
